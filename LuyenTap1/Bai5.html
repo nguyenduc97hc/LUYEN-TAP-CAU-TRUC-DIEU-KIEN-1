@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        let diembkt  = parseInt(prompt("Nhap vao diem bai kiem tra"));
+        let diemtgk = parseInt(prompt("Nhap vao diem thi giua ki"));
+        let diemtck = parseInt(prompt("nhap vao diem thi cuoi ki"));
+
+        diemtrungbinh = (diembkt+diemtgk*2+diemtck*3)/6;
+        if(diemtrungbinh<5){
+            alert("hoc lai")
+        }
+        else if(diemtrungbinh>=5 &&diemtrungbinh<6.5){
+            alert("hoc sinh trung binh")
+        }
+        else if(diemtrungbinh>=6.5 && diemtrungbinh<8){
+            alert("hoc sinh kha")
+        }
+        else alert("hoc sinh gioi")
+    </script>
+</body>
+</html>
